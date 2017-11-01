@@ -1,0 +1,114 @@
+html, body{
+	height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-image: url(ph1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	font-family: "open sans";
+	font-size: 350%;
+	color: white;
+}
+
+p{
+	text-align: center;
+	font-family: "open sans";
+	font-size: 200%;
+	color: white;
+	position: relative;
+	top: -5%;
+	left: 23%;
+}
+
+
+.whitebg1{
+	width: 50%;
+	float: left;
+	padding: 1%;
+	background-color: white;
+	opacity: 0.8;
+	line-height: 25px;
+	font-family: "open sans";
+	position: relative; top: 130%;
+	border: 3px solid #000000;
+	z-index: 2;
+}
+
+.whitebg2{
+	width: 50%;
+	float: right;
+	padding: 1%;
+	background-color: white;
+	opacity: 0.8;
+	line-height: 25px;
+	font-family: "open sans";
+	position: relative; top: 150%;
+	border: 3px solid #000000;
+	z-index: 2;
+	text-align: right;
+}
+
+.whitebg3{
+	width: 50%;
+	float: left;
+	padding: 1%;
+	background-color: white;
+	opacity: 0.8;
+	line-height: 25px;
+	font-family: "open sans";
+	position: relative; top: 155%;
+	border: 3px solid #000000;
+	z-index: 2;
+	text-align: left;
+}
+
+.whitebg4{
+	width: 50%;
+	float: right;
+	padding: 1%;
+	background-color: white;
+	opacity: 0.8;
+	line-height: 25px;
+	font-family: "open sans";
+	position: relative; top: 170%;
+	border: 3px solid #000000;
+	z-index: 2;
+	text-align: right;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 5%
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}

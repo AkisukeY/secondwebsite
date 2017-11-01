@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+    <script src='./data.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+ <div class="topnav" id="myTopnav" style="width: 5%">
+ <a href="index.html">Back</a>
+ </div>
+
+<div id='map'>
+</div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWtpc3VrZXkiLCJhIjoiY2o2dm45b3oyMTFmbDJ3bW41dnk3bTRxbSJ9.TQ3F_lK5_yFk4Qiwoi6W1A';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [151.200953, -33.850732],
+    zoom: 15,
+    pitch: 40,
+    bearing: 20
+});
+
+map.on('load', function() {
+
+    map.addLayer({
+        'id': 'room-extrusion',
+        'type': 'fill-extrusion',
+        'source': {
+            // Geojson Data source used in vector tiles, documented at
+            // https://gist.github.com/ryanbaumann/a7d970386ce59d11c16278b90dde094d
+            'type': 'geojson',
+            'data': data
+        },
+        'paint': {
+            // See the Mapbox Style Spec for details on property functions
+            // https://www.mapbox.com/mapbox-gl-style-spec/#types-function
+            'fill-extrusion-color': {
+                // Get the fill-extrusion-color from the source 'color' property.
+                'property': 'colour',
+                'type': 'identity'
+            },
+            'fill-extrusion-height': {
+                // Get fill-extrusion-height from the source 'height' property.
+                'property': 'height',
+                'type': 'identity'
+            },
+            'fill-extrusion-base': {
+                // Get fill-extrusion-base from the source 'base_height' property.
+                'property': 'base_height',
+                'type': 'identity'
+            },
+            // Make extrusions slightly opaque for see through indoor walls.
+            'fill-extrusion-opacity': 0.95
+        }
+    });
+});
+</script>
+
+</body>
+</html>
