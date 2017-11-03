@@ -21,7 +21,7 @@ h1{
 p{
 	text-align: center;
 	font-family: "open sans";
-	font-size: 200%;
+	font-size: 600%;
 	color: white;
 	position: relative;
 	top: -5%;
@@ -42,6 +42,7 @@ p{
 	z-index: 2;
 	min-width:50%;
 	min-height: 50%;
+	font-size: 170%;
 }
 
 .whitebg2{
@@ -56,6 +57,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
+	font-size: 170%;
 }
 
 .whitebg3{
@@ -70,6 +72,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
+	font-size: 170%;
 }
 
 .whitebg4{
@@ -84,6 +87,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
+	font-size: 170%;
 }
 
 .whitebg5{
@@ -98,6 +102,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
+	font-size: 170%;
 }
 
 .topnav {
