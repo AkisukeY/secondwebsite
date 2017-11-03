@@ -51,7 +51,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: absolute; top: 219%; right: 0.01%;
+	position: absolute; top: 224%; right: 0.01%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
@@ -74,14 +74,14 @@ p{
 }
 
 .whitebg4{
-	width: 50%;
+	width: 30%;
 	float: right;
 	padding: 1%;
 	background-color: white;
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 315.5%;
+	position: relative; top: 315.5%; right: 10%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
@@ -96,7 +96,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 317%;
+	position: relative; top: 435%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
