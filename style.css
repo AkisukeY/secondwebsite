@@ -5,7 +5,7 @@ html, body{
 }
 
 body{
-	background-image: url(ph1.jpg);
+	background-image: url(r7.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -64,7 +64,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 155%;
+	position: relative; top: 160%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
@@ -84,19 +84,35 @@ p{
 	text-align: right;
 }
 
+.whitebg5{
+	width: 50%;
+	float: left;
+	padding: 1%;
+	background-color: white;
+	opacity: 0.8;
+	line-height: 25px;
+	font-family: "open sans";
+	position: relative; top: 172%;
+	border: 3px solid #000000;
+	z-index: 2;
+	text-align: left;
+}
+
 .topnav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
     position: sticky;
     top: 0;
     z-index: 3;
-    width: 5%
+    width: 100%;
+    opacity: 0.5;
+    font-family: "open sans";
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -104,11 +120,6 @@ p{
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #737373;
     color: black;
-}
-
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
 }
