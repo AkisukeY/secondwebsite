@@ -40,9 +40,7 @@ p{
 	position: absolute; top: 140%; 
 	border: 3px solid #000000;
 	z-index: 2;
-	min-width:50%;
-	min-height: 50%;
-	font-size: 170%;
+	font-size: 300%;
 }
 
 .whitebg2{
@@ -57,7 +55,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
-	font-size: 170%;
+	font-size: 300%;
 }
 
 .whitebg3{
@@ -72,7 +70,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
-	font-size: 170%;
+	font-size: 300%;
 }
 
 .whitebg4{
@@ -87,7 +85,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
-	font-size: 170%;
+	font-size: 300%;
 }
 
 .whitebg5{
@@ -102,7 +100,7 @@ p{
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
-	font-size: 170%;
+	font-size: 300%;
 }
 
 .topnav {
