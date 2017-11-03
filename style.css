@@ -37,7 +37,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 130%;
+	position: absolute; top: 140%; 
 	border: 3px solid #000000;
 	z-index: 2;
 }
@@ -50,7 +50,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 150%;
+	position: absolute; top: 219%; right: 0.01%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
@@ -64,7 +64,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 160%;
+	position: absolute; top: 280%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
@@ -78,7 +78,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 170%;
+	position: relative; top: 315.5%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: right;
@@ -92,7 +92,7 @@ p{
 	opacity: 0.8;
 	line-height: 25px;
 	font-family: "open sans";
-	position: relative; top: 172%;
+	position: relative; top: 317%;
 	border: 3px solid #000000;
 	z-index: 2;
 	text-align: left;
